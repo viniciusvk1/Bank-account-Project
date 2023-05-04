@@ -1,11 +1,11 @@
 package model;
 
-public class ContaCorrente extends Conta {
+public class contaCorrente extends conta {
 
     private float limite;
 
-    public ContaCorrente(int numero, int agencia, int tipo, String titular, float saldo, float limite) {
-        super(numero, agencia, tipo, titular, saldo);
+    public contaCorrente(int numero, int agencia, int tipo, String titular, float saldo, float limite) {
+        super();
         this.limite = limite;
     }
 
